@@ -19,8 +19,8 @@ def get_tweets(username):
 		# Calling api 
 		api = tweepy.API(auth) 
 
-		# 200 tweets to be extracted 
-		number_of_tweets=20000
+		# 20 tweets to be extracted 
+		number_of_tweets=20
 		tweets = api.user_timeline(screen_name=username) 
 
 		# Empty Array 
