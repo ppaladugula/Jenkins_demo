@@ -20,7 +20,7 @@ def get_tweets(username):
 		api = tweepy.API(auth) 
 
 		# 20 tweets to be extracted 
-		number_of_tweets=20000
+		number_of_tweets=200
 		tweets = api.user_timeline(screen_name=username) 
 
 		# Empty Array 
@@ -43,4 +43,4 @@ if __name__ == '__main__':
 
 	# Here goes the twitter handle for the user 
 	# whose tweets are to be extracted. 
-	get_tweets("Apache_hadoop") 
+	get_tweets("priya303_") 
